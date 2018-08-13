@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="opentracing-thrift" />
     <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-client:0.30.3" level="project" />
     <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-thrift:0.30.3" level="project" />
     <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-core:0.30.3" level="project" />
