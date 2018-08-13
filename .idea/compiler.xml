@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="opentracing-thrift" />
+        <module name="quickstart" />
+        <module name="server" />
+        <module name="server2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="6" />
+      <module name="opentracing-thrift" target="1.7" />
+      <module name="quickstart" target="1.7" />
+      <module name="server" target="6" />
+      <module name="server2" target="6" />
+      <module name="thrift_tracing_demo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
